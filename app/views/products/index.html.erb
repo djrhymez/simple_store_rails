@@ -31,6 +31,18 @@
 <br>
 
 <%= link_to 'New Product', new_product_path %>
+<p>
+  <strong>Number of unique products:</strong>
+  <%= @unique_prods %>
+</p>
+<p>
+  <strong>Average price:</strong>
+  <%= @average_price %>
+</p>
+<p>
+  <strong>Total product quantity:</strong>
+  <%= @total_quantity %>
+</p>
 
 <% 100.times do %>
   <p>Chunky Bacon</p>
